@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+#logo {
+    width: 168px;
+    height: 22px;
+
+}
+
+#hero {
+    width: 100%;
+    height: 1000px;
+    background-color: #5F93C0;
+    padding-top: 20px;
+}
+
+header {
+    /* width: 100%; */
+    display: flex;
+    height: 80px;
+    display: flex;
+    padding: 18.63px 19.99px 18.37px 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 22px;
+    background: #FFF;
+}
+
+#buttonside {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+#scheduling {
+    display: flex;
+    padding: 12px 23.56px 12px 24px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 12px;
+    background: #283849;
+    color: #FFF;
+}
+
+.options {
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.76px;
+    max-height: 18.76px;
+    /* 134% */
+}
+
+#headings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainheadline {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 37.188px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+    margin-top: 100px;
+}
+
+#subheadline {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15.875px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px;
+    margin-top: -10px;
+}
+
+
+    @media (max-width: 768px) {
+
+        header {
+            flex-direction: column;
+            height: auto;
+            padding: 10px;
+        }
+
+        #buttonside {
+            width: 100%;
+            justify-content: space-evenly;
+        }
+    }
+
+    @media (max-width: 480px) {
+        /* #hero {
+        height: 300px;
+    } */
+
+        header {
+            padding: 5px;
+        }
+
+        #buttonside {
+            flex-direction: column;
+            gap: 10px;
+        }
+    }
